@@ -1,4 +1,4 @@
-# [Insert Project Name]
+# [SleepyBaby]
 Project for Lumohacks 2017
 
 ---
