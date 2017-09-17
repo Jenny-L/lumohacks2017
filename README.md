@@ -1,3 +1,7 @@
+# lumohacks2017
+Project for Lumohacks 2017
+
+--
 
 ## Native Starter Kit v6.1.0
 
