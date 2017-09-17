@@ -1,21 +1,17 @@
 {
-    "parser": "babel-eslint",
-    "extends": "airbnb",
-    "plugins": [
-        "react",
-        "jsx-a11y",
-        "import",
-        "react-native"
-    ],
-    "rules": {
-        "no-underscore-dangle": "off",
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
-    },
-    "settings": {
-        "import/resolver": {
-            "node": {
-                "extensions": [".js", ".android.js", ".ios.js"]
-            }
-        }
-    }
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "classes": true,
+  },
+  "rules": {
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "global-require": "off",
+    "no-console": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/img-has-alt": "off"
+  },
 }
